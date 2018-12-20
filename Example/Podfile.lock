@@ -24,7 +24,7 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - WangXuAPIs (1):
-    - AFNetworking (~> 2.3)
+    - AFNetworking
     - FMDB
 
 DEPENDENCIES:
@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  WangXuAPIs: e0d1af2270b5a469ca5a0d10377f0a0910d4a99a
+  WangXuAPIs: bd21e7c4237a88d0889db548cf2f042f68824f88
 
 PODFILE CHECKSUM: c97961daa2f8b6d20ab89884573837500a6fd38b
 
