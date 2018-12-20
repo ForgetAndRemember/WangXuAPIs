@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = gitWangxu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5YTB3JUCJS;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -489,6 +492,7 @@
 			baseConfigurationReference = 189E361B33E59BC69A400E51 /* Pods-WangXuAPIs_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5YTB3JUCJS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WangXuAPIs/WangXuAPIs-Prefix.pch";
 				INFOPLIST_FILE = "WangXuAPIs/WangXuAPIs-Info.plist";
@@ -504,6 +508,7 @@
 			baseConfigurationReference = 04B7D381ACE27656E64D80EA /* Pods-WangXuAPIs_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5YTB3JUCJS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WangXuAPIs/WangXuAPIs-Prefix.pch";
 				INFOPLIST_FILE = "WangXuAPIs/WangXuAPIs-Info.plist";
