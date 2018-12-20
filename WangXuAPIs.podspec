@@ -39,4 +39,6 @@ TODO: 用来处理网络请求，其中使用到了去model化.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FMDB'
+
 end
