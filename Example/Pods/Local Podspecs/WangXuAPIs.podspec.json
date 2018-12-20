@@ -1,0 +1,27 @@
+{
+  "name": "WangXuAPIs",
+  "version": "1",
+  "summary": "用来处理网络请求",
+  "description": "TODO: 用来处理网络请求，其中使用到了去model化.",
+  "homepage": "https://github.com/ForgetAndRemember/WangXuAPIs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gitWangxu": "1965584294@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ForgetAndRemember/WangXuAPIs.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WangXuAPIs/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017109EE4983325F197C3D6F /* WangXuAPIs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WangXuAPIs.podspec; path = ../WangXuAPIs.podspec; sourceTree = "<group>"; };
+		017109EE4983325F197C3D6F /* WangXuAPIs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WangXuAPIs.podspec; path = ../WangXuAPIs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		04B7D381ACE27656E64D80EA /* Pods-WangXuAPIs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangXuAPIs_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangXuAPIs_Example/Pods-WangXuAPIs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		189E361B33E59BC69A400E51 /* Pods-WangXuAPIs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangXuAPIs_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangXuAPIs_Example/Pods-WangXuAPIs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3574953D8B0A5E71FAB57E88 /* Pods_WangXuAPIs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WangXuAPIs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D59C0319C4BD76532730DE7 /* Pods-WangXuAPIs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangXuAPIs_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangXuAPIs_Tests/Pods-WangXuAPIs_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		708CF586CDF247EF9FEABD8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		708CF586CDF247EF9FEABD8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB0B51BF2DDD1CC170BF647E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CB0B51BF2DDD1CC170BF647E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBF54B3A8E36041D7696A593 /* Pods-WangXuAPIs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangXuAPIs_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangXuAPIs_Tests/Pods-WangXuAPIs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB41594C5B78DAE7F9A1D5C /* Pods_WangXuAPIs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WangXuAPIs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WangXuAPIs_Tests-checkManifestLockResult.txt",
 			);
@@ -321,16 +317,14 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WangXuAPIs_Example/Pods-WangXuAPIs_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WangXuAPIs/WangXuAPIs.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WangXuAPIs.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,15 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WangXuAPIs_Example-checkManifestLockResult.txt",
 			);

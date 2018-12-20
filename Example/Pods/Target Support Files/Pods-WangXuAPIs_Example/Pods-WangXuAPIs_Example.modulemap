@@ -1,0 +1,6 @@
+framework module Pods_WangXuAPIs_Example {
+  umbrella header "Pods-WangXuAPIs_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
