@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WangXuAPIs'
-  s.version          = '1'
+  s.version          = '2'
   s.summary          = '用来处理网络请求'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 用来处理网络请求，其中使用到了去model化.
+TODO: 用来处理网络请求，其中使用到了去model化s.
                        DESC
 
   s.homepage         = 'https://github.com/ForgetAndRemember/WangXuAPIs'
@@ -38,7 +38,7 @@ TODO: 用来处理网络请求，其中使用到了去model化.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
   s.dependency 'FMDB'
 
 end
